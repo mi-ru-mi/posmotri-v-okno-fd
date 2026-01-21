@@ -119,10 +119,6 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label:hover {
-  text-decoration: underline;
-}
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
 }
@@ -168,6 +164,11 @@ ol {
   height: 100%;
   opacity: 0;
 }
+
+.search-form__label-text:hover {
+  text-decoration: underline;
+}
+
 
 /* content */
 .content__details {
